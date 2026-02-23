@@ -1,0 +1,15 @@
+/* Import design tokens first */
+@import './Styles/design-tokens.css';
+@import './Styles/components.css';
+@import './Styles/utilities.css';
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--explora-background-secondary);
+}
+
+.main-content {
+  flex: 1;
+}
